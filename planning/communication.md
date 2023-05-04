@@ -28,7 +28,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day        |           Tuesday            |          Wednesday           |
+| Day        |           Thursday           |            Friday            |
 | ---------- | :--------------------------: | :--------------------------: |
 | _Inna_     | 09:00 - 12:00, 13:00 - 17:00 | 09:00 - 12:00, 13:00 - 17:00 |
 | _Zahira_   | 09:00 - 12:00, 13:00 - 17:00 | 09:00 - 12:00, 13:00 - 17:00 |
