@@ -34,6 +34,10 @@
 
 - add `header` tag
 
+### css
+
+- add class `navbar`, `container flex`
+
 ### Navigation bar
 
 - As an user I can navigate through three elements : Home,Features and Docs
@@ -42,6 +46,10 @@
 #### html
 
 - add `ul`, `li`, `a`
+
+#### css
+
+- add class `navbar`, `container flex`
 
 ### Title
 
@@ -74,6 +82,31 @@
 
 ## Features
 
+### Logo
+
+- As a user I want to see the logo in the left-top of the page
+
+### html
+
+- add `header` tag
+
+### css
+
+- add class `navbar`, `container flex`
+
+### Navigation bar
+
+- As an user I can navigate through three elements : Home,Features and Docs
+  there's a navigation bar on the right of the logo
+
+#### html
+
+- add `ul`, `li`, `a`
+
+#### css
+
+- add class `navbar`, `container flex`
+
 ### Title
 
 - As an user I can find the title
@@ -100,6 +133,31 @@
 
 ## Docs
 
+### Logo
+
+- As a user I want to see the logo in the left-top of the page
+
+### html
+
+- add `header` tag
+
+### css
+
+- add class `navbar`, `container flex`
+
+### Navigation bar
+
+- As an user I can navigate through three elements : Home,Features and Docs
+  there's a navigation bar on the right of the logo
+
+#### html
+
+- add `ul`, `li`, `a`
+
+#### css
+
+- add class `navbar`, `container flex`
+
 ### Title
 
 - As an user I can find the title
@@ -120,4 +178,29 @@
 
 - As an user I can easily click on a title in the summary and information listed
   in the right of the summary
+
   - add `link`
+
+### Footer
+
+- As a user I want to see the footer
+
+#### html
+
+- add `nav` , `ul` , `li`, `a`
+
+#### css
+
+- add class `footer`, `container`, `social`
+
+### Footer2
+
+- As a user I want to see the footer
+
+#### html
+
+- add `nav` , `ul` , `li`, `a`
+
+#### css
+
+- add class `footer`, `container`, `social`
