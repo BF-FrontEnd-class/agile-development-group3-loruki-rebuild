@@ -2,7 +2,11 @@
 
 ## Project's design overview
 
-![design](../public/img/home-page-design.jpg)
+![Home](../public/img/home.png)
+
+![Feature](../public/img/feature.png)
+
+![Docs](../public/img/docs.png)
 
 ---
 
@@ -10,4 +14,4 @@
 
 > Include your wireframe(s) and link to wireframe
 
-[Excalidraw](https://excalidraw.com/)
+[Excalidraw](https://excalidraw.com/#room=579bbb4377e559a99f7f,k_Apn3T_R9-FO_WDTV8BhQ)
