@@ -1,4 +1,4 @@
-# Name of project
+# Loruki website
 
 > The Loruki rebuild project involves redesigning and updating the website of a
 > fictional cloud hosting company, with the goal of improving its functionality,
@@ -8,7 +8,7 @@
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Loruki website](#loruki-website)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
