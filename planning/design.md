@@ -2,11 +2,7 @@
 
 ## Project's design overview
 
-![Home](../public/img/home.png)
-
-![Feature](../public/img/feature.png)
-
-![Docs](../public/img/docs.png)
+![Home](../public/img/design1.png)
 
 ---
 
