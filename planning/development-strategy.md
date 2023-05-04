@@ -1,55 +1,123 @@
-# Project Name
-
-<!-- describe your project -->
+# Loruki rebuild project
 
 ---
 
+## User Story Dependencies
+
+[Story Dependency Diagram](user-personas.md)
+
+---
+
+## WIREFRAME
+
+![wireframe]() -->
+
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- create a new repo form the template `template-html-css`
+- add collaborators
+- turn on github pages and give them `write` access
+- protect `main` branch
+- turn on discussion
 
 ---
 
 <!-- copy this section once for each must-have user story -->
 
-## user story
+## Home page
 
-<!-- each issue created from this section will have the `for: user story` label -->
+### Logo
 
-> "as a ... i can ... so that ..."
+- As a user I want to see the logo in the left-top of the page
 
-<!-- write any extra notes or description -->
+### html
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- add `header` tag
 
-### Logic: user story
+### Navigation bar
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- As an user I can navigate through three elements : Home,Features and Docs
+  there's a navigation bar on the right of the logo
 
-### Interface: user story
+#### html
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add `ul`, `li`, `a`
 
-### Interaction: user story
+### Title
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- As an user I can find the title
 
-### Documentation: user story
+#### html
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add `h1`
+
+### Description
+
+- As an user I can easily tell what the page is all about
+
+#### html
+
+- add `p`
+
+### Supported Languages
+
+- As an user I want to have an idea about development languages supported
+
+#### html
+
+- add `img`
+
+### Footer
+
+- As a user I want to see the footer
+- add `nav` , `ul` , `li`, `a`
+
+## Features
+
+### Title
+
+- As an user I can find the title
+
+#### html
+
+- add `h1`
+
+### General description
+
+- As an user I can easily tell what the page is all about
+
+#### html
+
+- add `p`
+
+### Feature Images
+
+- As a user I want to see images with short definition
+
+#### html
+
+- add `img`
+
+## Docs
+
+### Title
+
+- As an user I can find the title
+
+#### html
+
+- add `h1`
+
+### General description
+
+- As an user I can easily tell what the page is all about
+
+#### html
+
+- add `p`
+
+### Links
+
+- As an user I can easily click on a title in the summary and information listed
+  in the right of the summary
+  - add `link`
