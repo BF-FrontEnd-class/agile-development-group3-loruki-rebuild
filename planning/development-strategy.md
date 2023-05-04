@@ -10,7 +10,8 @@
 
 ## WIREFRAME
 
-![wireframe]() -->
+![wireframe](/public/img/home.png) --> ![wireframe](/public/img/feature.png)
+![wireframe](/public/img/docs.png)
 
 ## Setup
 
