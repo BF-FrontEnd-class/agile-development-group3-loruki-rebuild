@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #333;
@@ -53,6 +64,10 @@ p {
   overflow: auto;
 }
 
+img {
+  width: 100%;
+}
+
 /* Navbar */
 
 .navbar {
@@ -77,4 +92,35 @@ p {
 
 .navbar .flex {
   justify-content: space-between;
+}
+
+/* Head */
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.features-head img,
+.docs-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+.lead {
+  font-size: 20px;
 }
