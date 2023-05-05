@@ -9,38 +9,16 @@
   --error-color: #d9534f;
 }
 
-p {
-  margin: 10px 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: "Lato", sans-serif;
   color: #333;
   line-height: 1.6;
-}
-
-h1,
-h2 {
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 10px 0;
-}
-
-.title {
-  height: 400px;
-  background-color: #047aed;
-  color: white;
-  position: relative;
-}
-
-.title h1 {
-  font-size: 40px;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 ul {
@@ -52,35 +30,46 @@ a {
   color: #333;
 }
 
-.bg-primary a,
-.btn-primary a,
-.bg-secondary a,
-.btn-secondary a,
-.bg-dark a,
-.btn-dark a {
-  color: #fff;
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
 }
 
-.bg-light,
-.btn-light {
-  background-color: var(--light-color);
-  color: #333;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
+p {
+  margin: 10px 0;
 }
 
 img {
   width: 100%;
+}
+
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.docs-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 /* Navbar */
@@ -109,13 +98,7 @@ img {
   justify-content: space-between;
 }
 
-/* Head */
-
-.bg-primary,
-.btn-primary {
-  background-color: var(--primary-color);
-  color: #fff;
-}
+/* Title */
 
 .grid {
   display: grid;
@@ -140,29 +123,24 @@ img {
   font-size: 20px;
 }
 
-/* footer */
+/* Docs main */
 
-.bg-dark,
-.btn-dark {
-  background-color: var(--dark-color);
-  color: #fff;
+.docs-main h3 {
+  margin: 20px 0;
 }
 
-.py-5 {
-  padding: 4rem 0;
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
 }
 
-.grid-3 {
-  grid-template-columns: repeat(3, 1fr);
+.docs-main nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px #ccc solid;
 }
 
-/* sub head */
-
-.features-sub-head img {
-  width: 300px;
-  justify-self: flex-end;
-}
-
-.md {
-  font-size: 2rem;
+.my-4 {
+  margin: 3rem 0;
 }
