@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -281,6 +283,7 @@ pre {
   color: #fff;
 }
 
+
 /* Languages */
 
 .languages .flex {
@@ -300,4 +303,42 @@ pre {
 
 .languages .card:hover {
   transform: translateY(-15px);
+
+/* Cli */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+/* Cloud */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+
 }
