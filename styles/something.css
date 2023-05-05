@@ -391,3 +391,9 @@ pre {
     transform: translateX(0);
   }
 }
+
+.features-head img,
+.docs-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
