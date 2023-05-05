@@ -512,6 +512,7 @@ pre {
     transform: translateX(0);
   }
 }
+
 @media (max-width: 1000px) {
   .showcase-form {
     width: 340px;
@@ -588,4 +589,16 @@ pre {
   .showcase-form {
     width: 300px;
   }
+
+
+.features-head img,
+.docs-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.features-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+
 }
