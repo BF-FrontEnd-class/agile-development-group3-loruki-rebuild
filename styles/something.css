@@ -283,7 +283,6 @@ pre {
   color: #fff;
 }
 
-
 /* Languages */
 
 .languages .flex {
@@ -293,7 +292,7 @@ pre {
 .languages .card {
   text-align: center;
   margin: 18px 10px 40px;
-  transition: transform O.2 ease-in;
+  transition: transform 0.2 ease-in;
 }
 
 .languages .card h4 {
@@ -303,6 +302,7 @@ pre {
 
 .languages .card:hover {
   transform: translateY(-15px);
+}
 
 /* Cli */
 .cli .grid {
@@ -340,5 +340,4 @@ pre {
 .btn-dark {
   background-color: var(--dark-color);
   color: #fff;
-
 }
