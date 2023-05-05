@@ -9,6 +9,10 @@
   --error-color: #d9534f;
 }
 
+p {
+  margin: 10px 0;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #333;
@@ -57,8 +61,10 @@ a {
   color: #fff;
 }
 
-p {
-  margin: 10px 0;
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
 }
 
 .flex {
@@ -148,4 +154,15 @@ img {
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* sub head */
+
+.features-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+}
+
+.md {
+  font-size: 2rem;
 }
