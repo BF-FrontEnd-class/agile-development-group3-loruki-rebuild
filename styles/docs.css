@@ -122,3 +122,25 @@ pre {
 .lead {
   font-size: 20px;
 }
+
+/* Docs main */
+
+.docs-main h3 {
+  margin: 20px 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+.docs-main nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px #ccc solid;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
