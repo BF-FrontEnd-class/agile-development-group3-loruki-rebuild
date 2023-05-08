@@ -17,8 +17,8 @@
 
 ## General info
 
-> The project aims to create a website that reflects the high-quality services
-> offered by Loruki and attracts new customers to the company.
+> A could hosting platform, the objective is to reverse engineering the website
+> using agile methodology
 
 ## Screenshots
 
@@ -27,15 +27,14 @@
 ## Technologies
 
 - Html5
+- CSS3
 - VSC code
-- JavaScript
 - npm
-- ...
 
 ## Setup
 
 - clone the rep
-- run npm install
+- `npm install`
 
 ## Status
 
@@ -45,8 +44,8 @@ Project is: _done_
 
 | Name                                          |
 | --------------------------------------------- |
-| [Inna](https://github.com/inna9Z)             |
 | [Himanshi](https://github.com/himanshisaxena) |
+| [Inna](https://github.com/inna9Z)             |
 | [Karol](https://github.com/karol10cano)       |
-| [Zahira](https://github.com/ZahiraBella)      |
 | [Rahatab](https://github.com/Rahatab)         |
+| [Zahira](https://github.com/ZahiraBella)      |

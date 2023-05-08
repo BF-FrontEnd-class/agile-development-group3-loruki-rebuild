@@ -3,26 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Loruki | Cloud Hosting For Everyone</title>
-
-    <link href="./styles/index.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar -->
     <div class="navbar">
       <div class="container flex">
-        <h1 class="logo"><a href="./index.html">Loruki.</a></h1>
+        <h1 class="logo"><a href="index.html">Loruki.</a></h1>
         <nav>
           <ul>
-            <li><a href="./index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="./pages/features.html">Features</a></li>
             <li><a href="./pages/docs.html">Docs</a></li>
           </ul>
@@ -30,18 +27,19 @@
       </div>
     </div>
 
-    <!-- showcase -->
+    <!-- Showcase -->
     <section class="showcase">
       <div class="container grid">
         <div class="showcase-text">
           <h1>Easier Deployment</h1>
           <p>
             Deploy web apps of all kinds, from large scale enterprise APIs to
-            static websites for individuals. Fill out the form to try out a demo
-            of our platform
+            static websites for individuals. Fill out the form to try a demo of
+            our platform
           </p>
-          <a href="pages/features.html" class="btn btn-outline">Read More</a>
+          <a href="./pages/features.html" class="btn btn-outline">Read More</a>
         </div>
+
         <div class="showcase-form card">
           <h2>Request a Demo</h2>
           <form>
@@ -65,8 +63,9 @@
       </div>
     </section>
 
+    <!-- Stats -->
     <section class="stats">
-      <div class="title-section">
+      <div class="container">
         <h3 class="stats-heading text-center my-1">
           Welcome to the best platform for building applications of all types
           with modern architecture and scaling
@@ -94,8 +93,8 @@
 
     <!-- Cli -->
     <section class="cli">
-      <div class="title-section grid">
-        <img src=".\public\images/cli.png" alt="" />
+      <div class="container grid">
+        <img src="./public/images/cli.png" alt="" />
         <div class="card">
           <h3>Easy to use, cross platform CLI</h3>
         </div>
@@ -105,16 +104,17 @@
       </div>
     </section>
 
+    <!-- Cloud -->
     <section class="cloud bg-primary my-2 py-2">
-      <div class="title-section grid">
+      <div class="container grid">
         <div class="text-center">
           <h2 class="lg">Extreme Cloud Hosting</h2>
           <p class="lead my-1">
             Cloud hosting like you've never seen. Fast, efficient and scalable
           </p>
-          <a href="features.html" class="btn btn-dark">Read More</a>
+          <a href="./pages/features.html" class="btn btn-dark">Read More</a>
         </div>
-        <img src=".\public\images/cloud.png" alt="" />
+        <img src="./public/images/cloud.png" alt="" />
       </div>
     </section>
 
@@ -139,7 +139,7 @@
           <img src="./public/images/logos/ruby.png" alt="" />
         </div>
         <div class="card">
-          <h4>PNP</h4>
+          <h4>PHP</h4>
           <img src="./public/images/logos/php.png" alt="" />
         </div>
         <div class="card">
@@ -158,13 +158,13 @@
       <div class="container grid grid-3">
         <div>
           <h1>Loruki</h1>
-          <p>Copyright &copy; 2023</p>
+          <p>Copyright &copy; 2020</p>
         </div>
-        <nav class="nav-footer">
+        <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="/pages/features.html">Features</a></li>
-            <li><a href="/pages/docs.html">Docs</a></li>
+            <li><a href="./pages/features.html">Features</a></li>
+            <li><a href="./pages/docs.html">Docs</a></li>
           </ul>
         </nav>
         <div class="social">
