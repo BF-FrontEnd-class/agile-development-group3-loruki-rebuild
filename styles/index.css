@@ -1,2 +1,4 @@
-@import url("./something.css");
 @import url("./utilities.css");
+@import url("./home.css");
+@import url("./features.css");
+@import url("./docs.css");
